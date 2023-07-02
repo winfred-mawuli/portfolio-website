@@ -5,7 +5,7 @@ export const Header = () => {
     console.log(navList);
     return (
         <div className="flex justify-evenly mt-5 items-center">
-            <h1 className="text-blue-900  font-extrabold text-4xl">MawuliDev</h1>
+            <h1 className="text-blue-900  font-extrabold text-5xl" style={{ fontFamily: 'Dancing Script' }}>MawuliDev</h1>
             <nav className="ml-96">
                 <ul className="flex justify-evenly gap-10 items-center">
                     {navList.map((item, index) => (
