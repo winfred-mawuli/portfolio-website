@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 export const ComingSoonCounter = () => {
-    const targetDate = new Date('2023-08-31'); // Replace with your target date
+    const targetDate:Date = new Date('2023-08-31'); // Replace with your target date
     const [countdown, setCountdown] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
     useEffect(() => {
@@ -20,7 +20,7 @@ export const ComingSoonCounter = () => {
         return () => {
             clearInterval(intervalId);
         };
-    }, [targetDate]);
+    }, []);
 
     return (
         <div className="mt-40 flex flex-col gap-10 items-center">
