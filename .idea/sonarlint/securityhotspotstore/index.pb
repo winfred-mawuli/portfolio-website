@@ -13,3 +13,9 @@ A
 package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 A
 public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
+B
+tailwind.config.js,0\9\0918cbb76f2c44f223706cec9d31a32cd1177ce4
+=
+src/index.css,c\5\c5d38a62d1faae90a2acaa34b79a7ef365c917e4
+<
+src/logo.svg,6\d\6d3a8cd532ece5b4ddbd4b3b6a678ba686d300bc

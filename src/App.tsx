@@ -7,10 +7,10 @@ import {Footer} from "./components/Footer";
 
 function App() {
     return (
-        <div className="App">
+        <div className="App flex flex-col justify-between h-screen">
             <Header/>
             {/*<ComingSoonCounter/>*/}
-            <About/>
+            <section className="mx-10 lg:mx-40 flex justify-center"><About/></section>
             <Footer/>
         </div>
     );
