@@ -15,7 +15,7 @@ export const About = () => {
 
         <div className="hidden md:block md:w-1/2 h-auto">
             <div className="text-4xl flex items-center justify-end">
-                <img className="h-1/2 md:h-[400px] lg:h-[600px] hover:scale-110 transition-all" src={picture} alt="profile-image"/>
+                <img className="h-1/2 md:h-[400px] lg:h-[400px] hover:scale-110 transition-all" src={picture} alt="profile-image"/>
             </div>
         </div>
 
